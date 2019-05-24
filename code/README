@@ -1,0 +1,31 @@
+
+Prerequisites:
+
+cmake, opencv
+
+
+To compile in the lab
+——————————
+
+run ./lab_config.sh
+cd build
+make
+
+To compile on your own machine
+———
+
+cd build/
+cmake ../
+make
+
+
+To run
+——
+
+In the build folder:
+./sc image1 new_width new_height image2
+
+References
+1.http://www.cs.princeton.edu/courses/archive/fall13/cos226/assignments/seamCarving.html
+2.https://en.wikipedia.org/wiki/Seam_carving
+3.http://www.wikiwand.com/en/Seam_carving-/overview 
